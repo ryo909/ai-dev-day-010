@@ -1,4 +1,4 @@
-# Day010 Story — API Error Narrator
+# Day010 Story — Tradeoff Path Wizard
 
 ## Why
 毎日使う小さな課題を、1ページで即解決できる形にしたかったため。
@@ -10,13 +10,13 @@
 
 ## Design highlights
 - Day010専用にテーマをseed固定して再生成時の見た目を安定化
-- devtools用途に寄せた単機能UIで迷いを減らす
+- planning用途に寄せた単機能UIで迷いを減らす
 - 出力をそのまま再利用できるテキスト構造
-- Family: incident_triage
-- Mechanic: keyword_extraction
-- Input/Output: error_log_paste -> triage_steps
-- Audience Promise: faster_first_response
-- Publish Hook: 障害調査の最初の10分を短縮
+- Family: decision_wizard
+- Mechanic: branching_questionnaire
+- Input/Output: step_choices -> path_summary
+- Audience Promise: clearer_decisions
+- Publish Hook: 質問に答えるだけで判断パスが固まる
 - Complexity Tier: small
 - Selected components: none
 - Complexity hint: Keep the tool single-purpose and stable. Add at most one safe enhancement component.
@@ -31,5 +31,5 @@
 - エクスポート形式拡張
 
 ## Social copy
-Day010｜API Error Narrator
-API障害の初動切り分けを1分で始めるためのログ整理ツール。（話題:HN Frontpage）
+Day010｜Tradeoff Path Wizard
+段階質問で意思決定パスを確定するウィザード型ツール。（話題:HN Frontpage）
