@@ -1,4 +1,4 @@
-# Day010 Story — Backward Milestone Mapper
+# Day010 Story — API Error Narrator
 
 ## Why
 毎日使う小さな課題を、1ページで即解決できる形にしたかったため。
@@ -10,8 +10,13 @@
 
 ## Design highlights
 - Day010専用にテーマをseed固定して再生成時の見た目を安定化
-- planning用途に寄せた単機能UIで迷いを減らす
+- devtools用途に寄せた単機能UIで迷いを減らす
 - 出力をそのまま再利用できるテキスト構造
+- Family: incident_triage
+- Mechanic: keyword_extraction
+- Input/Output: error_log_paste -> triage_steps
+- Audience Promise: faster_first_response
+- Publish Hook: 障害調査の最初の10分を短縮
 - Complexity Tier: small
 - Selected components: none
 - Complexity hint: Keep the tool single-purpose and stable. Add at most one safe enhancement component.
@@ -26,5 +31,5 @@
 - エクスポート形式拡張
 
 ## Social copy
-Day010｜Backward Milestone Mapper
-締切から逆算した実行計画を即作成するプランニングツール。（話題:HN Frontpage）
+Day010｜API Error Narrator
+API障害の初動切り分けを1分で始めるためのログ整理ツール。（話題:HN Frontpage）
